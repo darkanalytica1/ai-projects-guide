@@ -1,0 +1,8 @@
+[
+  {"task": "Write fizzbuzz.py that prints FizzBuzz for 1..15, run it in the sandbox, and save the output to fizzbuzz_output.txt",
+   "checks": [{"file": "fizzbuzz.py"}, {"file": "fizzbuzz_output.txt", "regex": "FizzBuzz"}]},
+  {"task": "Compute the first 10 prime numbers with Python in the sandbox and write them comma-separated to primes.txt",
+   "checks": [{"file": "primes.txt", "regex": "2,\\s*3,\\s*5,\\s*7,\\s*11"}]},
+  {"task": "Write report.md explaining chunk size vs overlap in RAG with a markdown table of 3 settings",
+   "checks": [{"file": "report.md", "regex": "\\|.*overlap.*\\|"}]}
+]

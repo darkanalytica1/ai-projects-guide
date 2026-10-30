@@ -1,0 +1,4 @@
+# Project 02 - long-horizon agents (written against pydantic-ai 2.63, e2b-code-interpreter 2.x)
+pydantic-ai-slim[openrouter]>=2.63,<3
+e2b-code-interpreter>=2.0
+python-dotenv>=1.0

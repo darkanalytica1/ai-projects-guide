@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+build/
+dist/
+
+# Environments and secrets (never commit real keys)
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+
+# Generated data
+chroma_db/
+*.faiss
+logs/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

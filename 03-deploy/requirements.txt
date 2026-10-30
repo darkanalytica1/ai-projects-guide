@@ -1,0 +1,3 @@
+# Project 03 - run on the GPU machine (Colab / Lightning). Client scripts only need httpx.
+vllm            # install on the GPU machine: pip install vllm
+httpx>=0.27     # for load_test.py and metrics_summary.py (any machine)
